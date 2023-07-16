@@ -168,6 +168,7 @@ li{
   .site-title{
     margin-top: 20px;
     margin-bottom: 40px;
+    max-width: 100%;
   }
   .sec-title{
     margin-bottom: 40px;
