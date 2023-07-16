@@ -4,9 +4,96 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <title>Second project</title>
 </head>
+
 <body>
+  <header id="header">
+    <h1 class="site-title"><a href="index.html" >My Work</a></h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">
+          <p class="icon"><i class="fab fa-instagram"></i></p>
+        </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="mainvisual">
+      <picture>
+        <source media="(600px)" srcset="">
+        <img src="images/gor1.jpg" alt="gor1">
+      </picture>
+    </div>
+
+    <section id="about" class="wrapper">
+      <h2 class="sec-title">About</h2>
+      <ul>
+        <li>Aknmoon</li>
+        <li>1-111 Carlton St, Carlton VIC 3053 Australia</li>
+        <li>tel: 000-0000-0000</li>
+        <li>url: www.xxxxxx.jp</li>
+        <li>mail: xxx@gmail.com</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex veritatis quasi nobis quod asperiores, vero, nemo officiis vitae nisi perspiciatis doloremque voluptatibus sequi error maxime atque facere a repudiandae saepe!</p>
+    </section>
+
+    <section id="works" class="wrapper">
+      <h2 class="sec-title">Works</h2>
+      <ul>
+        <li><img src="images/whiteb.jpg" alt="whitebuilding"></li>
+        <li><img src="images/lse.jpg" alt="lse"></li>
+        <li><img src="images/wave.jpg" alt="wave"></li>
+        <li><img src="images/maker.jpg" alt="makercoffee"></li>
+        <li><img src="images/branch.jpg" alt="branch"></li>
+        <li><img src="images/seascpe.jpg" alt="seascpe"></li>
+      </ul>
+    </section>
+
+    <section id="news" class="wrapper">
+      <h2 class="sec-title">News</h2>
+      <dl>
+        <dt>2023.XX.XX</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+        <dt>2023.XX.XX</dt>
+        <dd>Quod corporis reprehenderit quae, obcaecati similique dicta.</dd>
+        <dt>2023.XX.XX</dt>
+        <dd>Voluptates suscipit ipsam nihil, aspernatur non a laboriosam.</dd>
+        <dt>2023.XX.XX</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+      </dl>
+    </section>
+
+    <section id="contact" class="wrapper">
+      <h2 class="sec-title">Contact</h2>
+      <form action="#" method="post">
+        <dl>
+          <dt><label for="name">NAME</label></dt>
+          <dd><input type="text" id="name" name="your-name"></dd>
+          <dt><label for="email">E-mail</label></dt>
+          <dd><input type="email" id="email" name="your-email"></dd>
+          <dt><label for="message">MESSAGE</label></dt>
+          <dd><textarea id="message" name="your-message"></textarea></dd>
+        </dl>
+        <div class="button"><input type="submit" value="送信"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>&copy;2023 My Work</p>
+  </footer>
   
 </body>
 </html>
