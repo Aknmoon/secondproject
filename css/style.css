@@ -167,7 +167,6 @@ li{
   }
   .site-title{
     margin-top: 20px;
-    margin-bottom: 40px;
   }
   .sec-title{
     margin-bottom: 40px;
@@ -177,6 +176,9 @@ li{
     max-width: 100px;
     height: auto;
     flex-direction: column;
+  }
+  #header h1{
+    max-width:85%;
   }
   #header li{
     font-size: 0.8rem;
